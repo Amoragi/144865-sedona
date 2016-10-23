@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+  </head>
+  <body>
+<header class="main-header">
+ <div class="container">
+ <nav class="main-navigation">
+ <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+<li>
+              <a href="#">Фото и видео</a>
+            </li>
+<li>
+              <a href="#">Карта штата</a>
+            </li>
+<li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+          
+        </nav>
+        
+      </div>
+      
+    </header>
+<main class="container">
+<div class="index-logo">
+<img src="img/index-logo.png" width="368" height="204" alt="Sedona">
+
+<div class="index-Foto-logo">
+<img src="img/foto-logo.png" width="" height="" alt="Foto-Sedona">
+
+
+<h2>Cедона-небольшой городок в Аризоне, заслуживающий большего</h2>
+ <section class="features">
+<div class="features-item">
+<b class="features-name">Настоящий городок</b>
+<p>№1<p/>
+<p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
+
+<div class="features-item-foto">
+<img src="img/index-logo.png" width="" height="" alt="features-Foto-Sedona">
+
+
+<b class="features-name2">Жилье</b>
+<p>Рекомендуем пожить в настоящем мотеле, все как в кино</p>
+
+<b class="features-name2">Еда</b>
+<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
+
+<b class="features-name2">Сувениры</b>
+<p>Не только китайского, но и местного производства</p>
+
+<b class="features-name">Там есть мост дьявола</b>
+<p>№2<p/>
+<p>Да, по нему можно пройти, если вы конечно осмелитесь</p>
+<div class="features-item-foto">
+<img src="img/most.png" width="" height="" alt="Most">
+
+<b class="features-name">Небольшая площадь</b>
+<p>№3<p/>
+<p>Все достопримечательности находятся очень близко</p>
+
+<b class="features-name">Красивая дорога</b>
+<p>№4</p>
+<p>Ехать в СЕдону из Лас-Вегаса совсем не скучно</p>
+
+<b class="features-name">Мало туристов</b>
+<p>Большинство едет в гранд-каньон и толпится там</p>
+
+<div class="poisk">
+<h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+<p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+
+<a class="btn" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+<div class-karta>
+<img srs="photo-1.jpg" width="286" height="164" alt="karta"></img>
+<div class="poisk-pole">
+
+<div class="index-content-left">
+          <h2 class="index-content-title">Дата заезда</h2>
+          <h2 class="index-content-title">Дата выезда</h2>
+          <h2 class="index-content-title">Взрослые</h2>
+          <h2 class="index-content-title">Дети</h2>
+
+<div class="index-content-right">
+          <input type="text" name="date" value="" placeholder="Дата заезда">
+            <input type="text" name="time" value="" placeholder="Дата выезда">
+            <input type="text" name="name" value="" placeholder="Количество взрослых">
+            <input type="tel" name="phone" value="" placeholder="Количество детей">
+
+<a class="btn" href="#">НАЙТИ</a>
+
+<footer class="main-footer">
+
+      <div class="container">
+
+          <section class="footer-hashtag">
+          <b>#VISITSEDONA</b>
+        </section>
+
+        <section class="footer-social">
+          <a class="social-btn social-btn-tvit" href="#">Твитер</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-play" href="#">Плэй</a>
+          
+        </section>
+        <section class="footer-designer">
+        <p>WEBSITE BY</p>
+        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          
+        </section>
+
+      </div>
+    </footer>
+    
+  </body>
+</html>
