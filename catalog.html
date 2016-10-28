@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>hotel</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -25,44 +26,40 @@
       </ul>
 
       <div class="logo">
-        <a href="index.html"><img src="index.html" width=" " height=" " alt="Sedona" />
+        <a href="index.html"><img src="img\top_menu\header\Logo.png" width=" " height=" " alt="Sedona" />
         </a>
       </div>
     </nav>
   </header>
 
   <section class="choice">
-    <div class="infrastructure">
-      <form class="infrastructure">
+    <form class="type">
+      <div class="infrastructure">
         <input type="checkbox" checked> бассейн
         <input type="checkbox"> парковка
         <input type="checkbox"> wi-fi
-      </form>
-    </div>
+      </div>
 
-    <div class="type">
-      <form class="type">
+      <div class="type">
         <input type="checkbox" checked> гостиница
         <input type="checkbox" checked> мотель
         <input type="checkbox" checked> апартаменты
-      </form>
-    </div>
+      </div>
 
-    <div class="price">
-      <form class="price" action="#" method="post">
-        стоимость в сутки (р):
+      <div class="price">
+        <span>стоимость в сутки (р):</span>
         <input type="text" name="price" value="от 0">
         <input type="text" name="price" value="до 3000">
         <input type="button" value="показать">
-      </form>
-    </div>
+      </div>
+    </form>
   </section>
 
-  <section>
-    <div>
+  <section class="found">
+    <div class="found">
       <h2>найдено</h2>
     </div>
-    <div>
+    <div class="sorting">
       <span>сортировка:</span>
       <ul>
         <li>
@@ -77,67 +74,76 @@
       </ul>
     </div>
 
-    <div>
-      <button><img src="icon.png" width="" height="" alt="search" ></button>
+    <div class="search">
+      <ul>
+        <li>
+          <a href="#">&nbsp;</a>
+        </li>
+        <li>
+          <a href="#">&nbsp;</a>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <article>
+  <article class="hotel">
     <div class="hotel image">
-      <img src="amara resort.jpeg" width="" height="" alt="amara resort & spa">
+      <img src="img\chtml\amararesort.jpg" width="" height="" alt="amara resort & spa">
     </div>
     <div class="hotel image">
-      <h1>amara resort & spa</h1>
-      <form>
-        <span>гостиница</span>
-        <button>подробнее</button>
-        <span>от 3500 р.</span>
-        <button>забронировать</button>
-      </form>
+      <h1><a href="#">amara resort &amp; spa</a></h1>
+    </div>
+    <form>
+      <span>гостиница</span>
+      <a href="#"><button>подробнее</button></a>
+      <span>от 3500 р.</span>
+      <a href="#"><button>забронировать</button></a>
+    </form>
     </div>
 
     <div class="rating">
-      <img src="star5.png" width="" height="" alt="rating">
+      <img src="img\chtml\★ ★ ★ ★.svg" width="" height="" alt="rating">
       <span>рейтинг:8,5</span>
     </div>
   </article>
 
-  <article>
+  <article class="hotel">
     <div class="hotel image">
-      <img src="desert quail inn.jpeg" width="" height="" alt="desert quail inn">
+      <img src="img\chtml\desert.jpg" width="" height="" alt="desert quail inn">
     </div>
     <div class="hotel image">
-      <h1>desert quail inn</h1>
-      <form>
-        <span>мотель</span>
-        <button>подробнее</button>
-        <span>от 2000 р.</span>
-        <button>забронировать</button>
-      </form>
+      <a href="#"><h1>desert quail inn</a></h1>
+    </div>
+    <form>
+      <span>мотель</span>
+      <a href="#"><button>подробнее</button></a>
+      <span>от 2000 р.</span>
+      <a href="#"><button>забронировать</button></a>
+    </form>
     </div>
 
     <div class="rating">
-      <img src="star2.png" width="" height="" alt="rating">
+      <img src="img\chtml\★ ★ ★ ★.svg" width="" height="" alt="rating">
       <span>рейтинг:8,9</span>
     </div>
   </article>
 
-  <article>
+  <article class="hotel">
     <div class="hotel image">
-      <img src="villas.jpeg" width="" height="" alt="villas at poco diablo">
+      <img src="img\chtml\villas.jpg" width="" height="" alt="villas at poco diablo">
     </div>
     <div class="hotel image">
-      <h1>villas at poco diablo</h1>
+      <a href="#"><h1>villas at poco diablo</h1></a>
       <form>
         <span>апартаменты</span>
-        <button>подробнее</button>
+        <a href="#"><button>подробнее</button></a>
         <span>от 4000 р.</span>
-        <button>забронировать</button>
+        <a href="#"><button>забронировать</button></a>
       </form>
     </div>
 
     <div class="rating">
-      <img src="star3.png" width="" height="" alt="rating">
+      <img src="img\chtml\★ ★ ★ ★.svg" width="" height="" alt="rating">
       <span>рейтинг:9,2</span>
     </div>
   </article>
@@ -148,14 +154,14 @@
     </div>
 
     <div class="footer-social">
-      <a href="#"> <img src="twitter.png" width="" height="" alt="twitter"></a>
-      <a href="#"> <img src="face.png" width="" height="" alt="face"></a>
-      <a href="#"> <img src="play.png" width="" height="" alt="play"></a>
+      <a href="#"> <img src="img\footer\twit.png" width="" height="" alt="twitter"></a>
+      <a href="#"> <img src="img\footer\face.png" width="" height="" alt="face"></a>
+      <a href="#"> <img src="img\footer\play.png" width="" height="" alt="play"></a>
     </div>
 
     <div class="footer-designer">
       <span>website by</span>
-      <a href="#"><img src="html.png" width="" height="" alt="htmlacademy"></a>
+      <a href="#"><img src="img\footer\logo-academy.png" width="" height="" alt="htmlacademy"></a>
     </div>
   </footer>
 
