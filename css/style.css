@@ -47,22 +47,20 @@ p.sedona{
 .features-item {
   background-color: lightblue;
   width: 400px;
-  height: 256px;
-  display: inline-block;
 
+    display: inline-block;
 }
 
-.features-item2 {
-  background-color: lightblue;
-  width: 400px;
-  height: 256px;
-  display: inline-block;
+.features-image {
 
-  padding-right: 800px;
+   width: 400px;
+    display: inline-block;
 }
+
+
 .text{
   float: right;
-  background-color: red;
+  background-color: lightblue;
 }
 .bluefeachers {
 font-size: 21px;
@@ -87,7 +85,11 @@ color: white;
 
 .advantages {
   width: 1200px;
-
+  /*Когда ставлю это свойство , то текст куда то уходит у жилья еды сувениров
+  .advantages {
+    font-size:0;
+  }
+*/
 
   margin: 0 auto;
 }
@@ -100,40 +102,24 @@ color: white;
 
 .column1 {
 
-  width: 250px;
+  width: 100px;
   display: inline-block;
 
-padding-left: 150px;
-padding-top: 100px;
-  height: 230px;
 
-}
-h2. advantages{
-  text-align: center;
-}
 
-p. advantages{
-  text-align: center;
-}
+
 
 .column2 {
 
-  width: 250px;
+  width: 50px;
   display: inline-block;
 
-padding-left: 150px;
-padding-top: 100px;
-  height: 230px;
 }
 
 .column3 {
 
-  width: 250px;
+  width: 50px;
   display: inline-block;
-
-padding-left: 150px;
-padding-top: 100px;
-  height: 230px;
 }
 .img2{
   float: left;
