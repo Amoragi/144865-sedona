@@ -1,11 +1,11 @@
 body{
-
+font-size:0px;
   font-family:PT Sans,"Arial", serif;
   text-transform: uppercase;
 }
 
 .nav {
-  /*background-color: red;*/
+
   width:1200px;
 
   text-align: center;
@@ -16,7 +16,7 @@ body{
 
 .main-navigation li{
   display: inline-block;
-  width: 220px;
+
 }
 
 .mountain{
@@ -39,21 +39,21 @@ body{
 }
 
 p.sedona{
-  padding: 20px;
+
   font-size: 14px;
   margin-bottom: 30px;
 }
 
 .features-item {
   background-color: lightblue;
-  width: 400px;
-
-    display: inline-block;
+width: 400px;
+display: inline-block;
+vertical-align: top;
 }
 
 .features-image {
 
-   width: 400px;
+   width: 800px;
     display: inline-block;
 }
 
@@ -67,38 +67,12 @@ font-size: 21px;
 color: white;
 }
 
-.text{
-  width: 400px;
 
-  display: inline-block;
 
-}
 
-.smallbluefechers {
-  font-size: 14px;
-  color: white;
-}
-  .number{
-    font-size: 14px;
-    color: white;
-}
 
-.advantages {
-  width: 1200px;
-  /*Когда ставлю это свойство , то текст куда то уходит у жилья еды сувениров
-  .advantages {
-    font-size:0;
-  }
-*/
 
-  margin: 0 auto;
-}
 
-.clearfix:after{
-    content:" ";
-    display:table;
-    clear:both;
-}
 
 .column1 {
 
@@ -121,24 +95,6 @@ color: white;
   width: 50px;
   display: inline-block;
 }
-.img2{
-  float: left;
-
-}
-h2 {
-
-  width:1200px;
-  margin:  auto;
-
-}
-
-p {
-
-  width:1200px;
-  margin:  auto;
-
-}
-
 
 
 ul {
@@ -168,7 +124,3 @@ h3 {
         font-weight:bold;
 
         }
-
-.choice {
-  color:lightgray;
-  }
